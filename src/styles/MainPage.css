@@ -1,0 +1,90 @@
+/* Main container */
+.main-page {
+  background: fixed radial-gradient(rgb(52, 118, 38), skyblue);
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* Header */
+.Header {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.News-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.Video-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* News and Video containers */
+.news-container,
+.videos-container {
+  margin: 20px 0;
+}
+
+/* Mobile optimization for news and video containers */
+@media screen and (max-width: 768px) {
+  .Header {
+    font-size: 2rem; /* Smaller header size for mobile */
+  }
+
+  .news-container,
+  .videos-container {
+    margin: 10px 0;
+  }
+}
+
+/* Styling for larger screen sizes */
+@media screen and (min-width: 769px) {
+  .news-container {
+    padding: 20px 0;
+  }
+
+  .videos-container {
+    padding: 20px 0;
+  }
+}
+
+/* Styling for very large screens */
+@media screen and (min-width: 1200px) {
+  .Header {
+    font-size: 4rem; /* Larger header on larger screens */
+  }
+
+  .news-container,
+  .videos-container {
+    margin: 40px 0;
+  }
+}
+
+/* General styling for both news and videos */
+.news-container,
+.videos-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .news-container,
+  .videos-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

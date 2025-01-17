@@ -1,0 +1,84 @@
+.videos-scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0;
+}
+
+.videos-slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.videos-slider::-webkit-scrollbar {
+  height: 8px;
+}
+
+.videos-slider::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00f260, #176744);
+  border-radius: 10px;
+}
+
+.videos-slider::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.video-card {
+  flex: 0 0 300px;
+  background: linear-gradient(145deg, #1f1f1f, #292929);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-card h3 {
+  margin: 10px 0;
+  color: #00f2a5;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #dcdcdc;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: #dfd0d0;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.video-link {
+  font-size: 14px;
+  color: #94c7a8;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 1px solid #40b56f;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.video-link:hover {
+  background: #00f26197;
+  color: #1f1f1f;
+  cursor: pointer;
+}

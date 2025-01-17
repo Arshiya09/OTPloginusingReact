@@ -1,0 +1,84 @@
+/* Container styling */
+.verify-otp-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: fixed radial-gradient(rgb(52, 118, 38), skyblue);
+  padding: 20px;
+}
+
+/* Card for OTP verification */
+.verify-otp-card {
+  background: rgba(23, 130, 165, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title and subtitle */
+.verify-otp-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.verify-otp-subtitle {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* OTP input container */
+.verify-otp-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.verify-otp-input {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.verify-otp-input:focus {
+  outline: none;
+  border-color: #06d493;
+  box-shadow: 0 0 10px #06d493d4;
+}
+
+/* OTP verification button */
+.verify-otp-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #06d4479d;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.verify-otp-btn:hover {
+  background-color: #087d68;
+  transform: translateY(-2px);
+}
+
+.verify-otp-btn:active {
+  transform: translateY(2px);
+}
