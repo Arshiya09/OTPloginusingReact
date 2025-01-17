@@ -1,8 +1,12 @@
 # React + Vite
+# News & Video Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a React-based website displaying news articles and learning videos. It includes:
+- OTP-based login functionality.
+- A responsive main page with scrolling news and videos.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+1. User authentication via OTP.
+2. Responsive design for desktop and mobile.
+3. Integration with external APIs for news and video data.
