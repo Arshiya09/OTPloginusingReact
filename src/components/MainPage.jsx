@@ -46,7 +46,7 @@ const MainPage = () => {
           throw new Error(`Error ${response.status}: ${response.statusText}`);
         }
         const data = await response.json();
-        setVideos(data.data || []); // Assuming the videos data is in the "data" property
+        setVideos(data.data || []); 
       } catch (error) {
         console.error('Error fetching videos:', error);
       }
